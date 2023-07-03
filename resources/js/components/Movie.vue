@@ -6,7 +6,7 @@
             <th scope="col">Director</th>
         </tr>
         <tr v-for="movie in movies" :key="movie.id">
-            <tr scope="row">{{ movie.id }}</tr>
+            <td>{{ movie.id }}</td>
             <td>{{ movie.title }}</td>
             <td>{{ movie.director }}</td>
         </tr>
